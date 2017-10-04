@@ -62,7 +62,7 @@
 $('body').scrollspy({target: ".navbar", offset: 50});
 
 // Add smooth scrolling on all links inside the navbar
-$("#bs-example-navbar-collapse-1 a").on('click', function(event) {
+$("#main-navbar a").on('click', function(event) {
 
   // Make sure this.hash has a value before overriding default behavior
   if (this.hash !== "") {
