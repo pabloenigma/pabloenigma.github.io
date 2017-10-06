@@ -133,11 +133,24 @@ body {
   padding-bottom: 50px;
 }
 
+#about-us-title-wrapper {
+  display: flex;
+}
+
+#about-us-text-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
 #about-us-title {
+  width: 100vw;
   margin-bottom: 25px;
   /*font-family: 'Cinzel', serif;*/
   font-family: 'Raleway', sans-serif;
-  font-size: 50px;
+  font-size: 8vmin;
+  text-align: center;
 }
 
 .about-us-rows {
@@ -145,7 +158,7 @@ body {
 }
 
 .about-us-image-1 {
-  width: 100%;
+  width: 40vw;
   -ms-transform: rotate(4deg); /* IE 9 */
   -webkit-transform: rotate(4deg); /* Chrome, Safari, Opera */
   transform: rotate(4deg);
@@ -158,7 +171,7 @@ body {
   align-items: center;
   padding-left: 30px;
   font-family: 'Raleway', sans-serif;
-  font-size: 30px;
+  font-size: 3.8vmin;
 }
 
 /*Rooms CSS*/
@@ -176,7 +189,7 @@ body {
 #rooms-title {
   /*font-family: 'Cinzel', serif;*/
   font-family: 'Raleway', sans-serif;
-  font-size: 50px;
+  font-size: 8vmin;
   color: #ecf0f1;
 }
 
@@ -296,3 +309,5 @@ body {
 #facebook-icon {
   color: white;
 }
+
+*{ border: 1px solid red; }
