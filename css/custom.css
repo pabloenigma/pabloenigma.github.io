@@ -282,7 +282,7 @@ body {
   height: 180px;
   width: 180px;
   margin: 20px;
-  background-color: #34495e;
+  background-color: #e2482d;
   color: white;
   font-family: 'Special Elite', cursive;
   font-size: 20px;
@@ -294,7 +294,7 @@ body {
 }
 
 .rooms-button-2:hover {
-  background-color: #2c3e50;
+  background-color: #e2482d;
   color: white;
 }
 
